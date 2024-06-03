@@ -2,21 +2,21 @@
 
 The library for web and native user interfaves
 
-- Create a Custom Tags
-- Props는 컴포넌트의 외부에서 사용하는 입력값입니다.
-- State는 컴포넌트 내부에서 사용하는 값입니다.
-- 이벤트는 Props를 이용합니다.
-- event.preventDefault()를 이용해서 기본동작을 비활성화 할 수 있습니다.
-- form을 변경할 때는 Props를 State로 전환 후 onChange를 이용합니다.
+- You can creates a Custom Tags with React.
+- Components are like functions that return HTML elements. The simplest way to define a component is to write a JavaScript function.
+- React Props are like function arguments in JavaScript and attributes in HTML. To send props into a component, use the same syntax as HTML attributes.
+- React components has a built-in state object. The state object is where you store property values that belong to the component. When the state object changes, the component re-renders.
+- React can perform actions based on user events. React has the same events as HTML: click, change, mouseover etc.
+- event.preventDefault(): The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+- React onChange is an event handler that triggers when there is any change in the input field.
 
 ### Create React App
 
-`$ mkdir react-app`  
-`$ cd react-app`  
+`$ mkdir react-app`
+`$ cd react-app`
 `react-app$ npx create-react-app .`
 
 ### Edit React App
 
-- `public/index.html` -> `src/index.js` -> `src/App.js`  
-- `src/index.css` and `src/App.css`  
-
+- `public/index.html` -> `src/index.js` -> `src/App.js`
+- `src/index.css` and `src/App.css`
