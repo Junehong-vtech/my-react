@@ -11,14 +11,12 @@ The library for web and native user interfaves
 
 ### Create React App
 
-`$ mkdir react-app`
-`$ cd react-app`
+`$ mkdir react-app`  
+`$ cd react-app`  
 `react-app$ npx create-react-app .`
 
 ### Edit React App
 
-`src/index.js` -> `src/App.js`
-`src/App.css` ->
-`src/index.css` ->
-`const root = ReactDOM.createRoot(document.getElementById('root'));` in src/index.js
--> `<div id="root"></div>` in public/index.html
+- `public/index.html` -> `src/index.js` -> `src/App.js`  
+- `src/index.css` and `src/App.css`  
+
