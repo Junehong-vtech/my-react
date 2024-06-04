@@ -9,7 +9,11 @@ The library for web and native user interfaves
 - useState Hook allows us to track state in a function component.
 - useState accepts an initial state and returns two values:  
   `The current state.`  
-  `A function that updates the state.`
+  `A function that updates the state.`  
+  `// const _mode = useState('WELCOME');`  
+  `// const mode = _mode[0];`  
+  `// const setMode = _mode[1];`  
+  `const [mode. setMode] = useState('WELCOME');`  
 - React can perform actions based on user events. React has the same events as HTML: click, change, mouseover etc.
 - event.preventDefault(): The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
 - React onChange is an event handler that triggers when there is any change in the input field.
