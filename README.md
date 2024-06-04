@@ -8,9 +8,9 @@ The library for web and native user interfaves
 - event.preventDefault(): The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
 - React onChange is an event handler that triggers when there is any change in the input field.
 ### Create React App
-`$ mkdir react-app`
-`$ cd react-app`
-`react-app$ npx create-react-app .`
+`$ mkdir react-app`  
+`$ cd react-app`  
+`react-app$ npx create-react-app .`  
 ### Edit React App
 - `public/index.html` -> `src/index.js` -> `src/App.js`
 - `src/index.css` and `src/App.css`
