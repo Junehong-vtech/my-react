@@ -20,6 +20,7 @@ Hooks allow function components to have access to state and other React features
 Because of this, class components are generally no longer needed.
 #### useEffect
 The useEffect Hook allows you to perform side effects in your components.  
+`useEffect` is a React Hook that lets you synchronize a component with an external system.  
 Some examples of side effects are: fetching data, directly updating the DOM, and timers.
 #### useState
 The useState Hook allows us to track state in a function component.  
