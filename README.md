@@ -1,5 +1,5 @@
 # React
-The library for web and native user interfaves
+The library for web and native user interfaces.
 - You can creates a Custom Tags with React.
 - Components are like functions that return HTML elements. The simplest way to define a component is to write a JavaScript function.
 - React Props are like function arguments in JavaScript and attributes in HTML. To send props into a component, use the same syntax as HTML attributes.
